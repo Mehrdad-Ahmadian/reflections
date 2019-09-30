@@ -1,0 +1,80 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	diff command on the Mac terminal provided a comparison between the two versions of the same code by
+	indicating the lines where there was a difference or where an alteration took place.
+	Where there was a change, it specified the lines of the old version with triple minuses
+	while the lines of the new code (second file) was highlighted with triple plus operators.
+	When there was no symbol on the left of the code, lines were remained untouched.
+	To summarize, locating the differences in versions and identifying the bugs are made significantly easier.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Supposedly, a programmer could investigate how his code has evolved during the stages of development
+	and could easily navigate through the different versions.
+	On the other hand, a programmer would learn to increment and add to the code through the intervals within the code.
+
+
+What do yo think are the pros and and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Having versions automatically saved provides some very clear upsides. In fact 
+	it could be useful for forgetful programmers who do not remember to create versions
+	on the regular intervals. However the main drawback could be that it creates
+	checkpoints on the commit history that may not be meaningful or you may end up cluttering your git commit history.
+
+	On the other hand, manually creating commits could be a hassle for a forgetful coder, though the benefits outweigh.
+	By creating a commit per logical change, viewing the history and comparing the differences
+	between two commits or different versions of a code could be a better experience
+	and the user tend to have a better understanding of the differences.
+	On top of that, since the creating of a commit point is a judgment call (subjective decision), 
+	following the rule of thumb with respect to the creation of commits on a logical change
+	could avoid making too small, too big or meaningless checkpoints, or for that matter, cluttering the history.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	The primary reason to allow tracking multiple files at once is that in most cases, 
+	coding span multiple files and they might be interrelated. That is, you may declare a function in one file
+	and you need to invoke (call) that on another file. In this case, changes you make on this function
+	like for instance adding another argument would affect both files.
+	As a result, code oriented version control systems like Git allow for a multiple file saving
+	in one commit, which makes it easy to track the changes for interrelated files.
+	The collection of these interrelated files which need to be tracked simultaneously are called a repository.
+
+	Conversely, files on other version control systems which are not code oriented,
+	are less likely to be related or have effects on one another. Therefore, it would seem unnecessary
+	for multiple file saving in one commit and tracking them separately would probably work fine.
+
+
+How can you use commands git log and git diff to view the history of files?
+
+	By using git log command in terminal and in the directory of our files, git will present
+	a full history of commits with details including commit ID, date it has been created,
+	author and the commit message which introduce the logic of the change.
+
+	On the other hand, git diff command lets the user input the commit IDs they want to compare
+	and in response, git displays the differences between two versions of the code. Lines in the first commit marks in red,
+	while the lines in the second commit is highlighted in green. The lines which have remained
+	unchanged are shown in black.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+	Whenever a programmer make a logical change to the code, it's been recommended
+	to make a commit which is a checkpoint to refer. By using git, we are able to navigate and explore
+	through the different stages of the code, so if we make a break, it will still be possible to revert
+	to the previous states of the code without worrying about losing the changes.
+
+	The takeover here is that we use git commit to create a commit, git log to view the history of our repository,
+	and the git checkout to restore a commit within our repository.
+
+
+Now that you have your workspace set up, what do you want to try using git for?
+
+	Now it has been all set, I intend to use git to easily explore different commits
+	in the code repository and easily distinguish the differences thanks to the workspace set up.
+
+
+
+
