@@ -1,1 +1,21 @@
 When would you want to create a remote repository rather keeping all your work local?
+
+	If you want to collaborate on a project, creating a remote repository where multiple
+	developers have access to the same repository is beneficial. That is, different members
+	of the team can add features and push the data to the remote and others could see and
+	pull the updated data to their local repositories so they could continue working on 
+	the project.
+
+
+Why might you want to always pull changes manually rather than having Git automaticallly 
+stay up-to-date with your remote repository?
+
+	Sometimes the updated commit that is proposed by one of the users needs to be discussed 
+	by all the parties involves to ensure that it runs all on devices and they all have a
+	concensus that this is the production code. 
+
+	In that case, manually pullung data makes more sense that automatically staying sync
+	with a version that is not the productin code.
+
+
+	 
