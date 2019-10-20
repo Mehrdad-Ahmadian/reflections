@@ -18,4 +18,13 @@ stay up-to-date with your remote repository?
 	with a version that is not the productin code.
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Fork is a GitHub feature which allows us to copy a GitHub-based-repository to another
+	GitHub-based-repository, without affecting the original repository.
+	Clones on the other hand, allows for any other type of making a copy of a repo, namely 
+	copying from GitHub to a local machine, or from a local repository to another local one.
+	Lastly, branches only operates on a single repository.
+
+
 	 
