@@ -28,3 +28,13 @@ Describe the differences between forks, clones, and branches. When would you use
 
 
 	 
+What is the benfit of having a copy of the last known state of the remote stored locally?
+
+	The benefit of having the last state of the remote copied locally in origin/master is
+	in case we make some changes locally and some changes on GitHub as a result of
+	collaboration, we do not miss the local or remote commits by pushing or pulling
+	data. In these circumstances, we can merge the local copy of the remote and 
+	the local branch to sync our changes.
+
+
+ 
