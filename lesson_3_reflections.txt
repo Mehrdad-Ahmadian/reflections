@@ -14,7 +14,7 @@ stay up-to-date with your remote repository?
 	by all the parties involves to ensure that it runs all on devices and they all have a
 	concensus that this is the production code. 
 
-	In that case, manually pullung data makes more sense that automatically staying sync
+	In that case, manually pulling data makes more sense that automatically staying sync
 	with a version that is not the productin code.
 
 
@@ -37,4 +37,11 @@ What is the benfit of having a copy of the last known state of the remote stored
 	the local branch to sync our changes.
 
 
- 
+How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
+
+	Without using a version control system, working at the same project among a team
+	would be difficult to follow and there may be conflicts arising while the contributors
+	are working at the same time. 
+
+
