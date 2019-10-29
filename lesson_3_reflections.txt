@@ -45,3 +45,18 @@ would be harder?
 	are working at the same time. 
 
 
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+	When you are trying to work on adding a new feature or fixing a bug that might break
+	the entire code, or in cases that you are collaborating with a team on a project and
+	making changes at the same time to the same parts of the project, it is a common
+	practice to code in a separate branch.
+	This practice avoids conflicts and confusion by staying on top of the changes and
+	contributions.
+
+	On the other hand, when you are solely working on a project or you are developing in a 
+	linear method, it is easire to keep a track of the increments in the master branch.
+
+ 
+
